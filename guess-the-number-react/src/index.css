@@ -15,7 +15,7 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
+  /* background-color: #60b347; */ /* This will be handled by App.js logic */
 }
 
 /* LAYOUT */
@@ -60,7 +60,7 @@ h1 {
   background: #eee;
   color: #333;
   font-size: 6rem;
-  width: 15rem;
+  width: 15rem; /* Original width, might be changed by JS on win */
   padding: 3rem 0rem;
   text-align: center;
   position: absolute;
