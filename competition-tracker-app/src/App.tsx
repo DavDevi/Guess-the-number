@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'; // Added useEffect
 import './App.css';
 import type { Player, Game, GameResult, GameNight, LeaderboardEntry } from './types'; // Added GameNight, LeaderboardEntry
+
 import PlayerForm from './components/PlayerForm';
 import PlayerList from './components/PlayerList';
 import GameForm from './components/GameForm';

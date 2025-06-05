@@ -1,3 +1,4 @@
+
 import type { GameNight, Player, LeaderboardEntry, GameResult } from '../types';
 
 // calculateLeaderboardPoints function (as previously defined and verified)
