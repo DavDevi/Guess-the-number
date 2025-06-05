@@ -1,4 +1,5 @@
-import { GameNight, Player, LeaderboardEntry, GameResult } from '../types';
+
+import type { GameNight, Player, LeaderboardEntry, GameResult } from '../types';
 
 // calculateLeaderboardPoints function (as previously defined and verified)
 export const calculateLeaderboardPoints = (numberOfPlayers: number, rank: number): number => {
