@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Player } from '../types';
+import type { Player } from '../types';
 
 interface PlayerFormProps {
   onAddPlayer: (player: Player) => void;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Game, Player, GameResult } from '../types';
+import type { Game, Player, GameResult } from '../types';
 
 interface EnterScoreFormProps {
   games: Game[];
