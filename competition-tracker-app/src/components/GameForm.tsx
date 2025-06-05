@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Game } from '../types';
+import type { Game } from '../types';
 
 interface GameFormProps {
   onAddGame: (game: Game) => void;
